@@ -1,0 +1,35 @@
+{
+    "name": "jrdev/phplint",
+    "description": "Configurable linter and formatter tool for PHP",
+    "type": "library",
+    "license": "MIT",
+    "prefer-stable": true,
+    "keywords": [
+        "phplint",
+        "lint",
+        "syntax",
+        "check"
+    ],
+    "autoload": {
+        "psr-4": {
+            "JRdev\\PHPLint\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jose Robinson",
+            "email": "jrobinsonc@gmail.com",
+            "homepage": "https://joserobinson.com/"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/jrobinsonc/phplint"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.1"
+    }
+}
